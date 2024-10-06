@@ -6,7 +6,7 @@
 /*   By: hdaher <hdaher@student.42.fr>              +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/04/01 08:53:34 by hdaher            #+#    #+#             */
-/*   Updated: 2024/04/03 11:03:43 by mrochedy         ###   ########.fr       */
+/*   Updated: 2024/10/06 23:58:17 by hdaher           ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -65,7 +65,7 @@ int	init_variables(char **map_string, char **buff)
 	return (1);
 }
 
-int	make_the_reading(int fd, char *buff, char **map_string)
+int	reader(int fd, char *buff, char **map_string)
 {
 	int	ret;
 
@@ -102,7 +102,7 @@ char	*read_map(char *file_path, int standard_input)
 		free(buff);
 		return (NULL);
 	}
-	if (!make_the_reading(fd, buff, &map_string))
+	if (!reader(fd, buff, &map_string))
 		return (NULL);
 	close(fd);
 	free(buff);
