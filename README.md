@@ -4,6 +4,8 @@ Welcome to our **BSQ** (**Biggest Square**) project implementation, completed du
 
 Here, you'll find a carefully crafted version that was evaluated by three different students, as well as the **Moulinette** correction tool, achieving a perfect score of **100/100**. While every effort was made to ensure the code is bug-free, errors may still exist. Your feedback is highly appreciated!
 
+<img width="198" alt="100/100 grade" src="https://github.com/user-attachments/assets/6c239efa-f530-4bef-a775-b2ed3abf7455">
+
 ## About the Project
 
 The **BSQ** project is all about developing an efficient algorithm to find the largest possible square that can be placed on a given map filled with obstacles. Each map is represented by characters, with some cells designated as obstacles and others as empty spaces. Our program reads a file containing this grid of characters, processes the data, and identifies the largest possible square that can be formed in the unobstructed regions of the map. The final result shows this largest square visually, replacing the corresponding cells with a character that marks the filled area.
